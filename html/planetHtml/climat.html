@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>CLIMAT</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700&display=swap&subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet">
+  <link rel="stylesheet" href="../../style.css">
+</head>
+  <body>
+
+    <main>
+    <p></p>
+    <form >
+      <p>Венера вращается по-другому чем Земля, и год там длится не 365 дней. Когда кто-то из персонажей говорит, что им 7 лет, эти 7 лет не будут 7 годами на Земле. Но сколько тогда это на Земле? 2 часа? 9 месяцев? 76 лет?</p>
+      <p>Теперь это можно посчитать!</p>
+
+        <h2>Переобразователь возраста </h2>
+    <input type="number" id="value1" placeholder="Введите возраст" >
+
+      <select id="operator" >
+        <option value="div">Перевести венерианский в земной</option>
+        <option value="mul">Перевести земной в венерианский</option>
+      </select>
+      <button type="button" onclick="calc()">Рассчитать</button>
+    </form>
+
+    <p></p>
+<p>Результат:</p>
+<h4><div id="result"></div></h4>
+
+
+</main>
+
+  </body>
+  <script src="../../javascript/main.js"></script>
+  <script src="../../javascript/climat.js"></script>
+</html>

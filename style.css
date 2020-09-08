@@ -1,0 +1,938 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  background-color: #f5f5f5;
+  font-family: 'Oswald', sans-serif;
+}
+
+@font-face {
+  src: url(fonts/9488.otf);
+  font-family: tt;
+}
+
+
+/*
+DECORATIONS
+*/
+
+
+.wrapper-universal {
+  background-color: #050d0c;
+  width: 320px;
+  margin: 0 auto;
+  display: block;
+}
+
+h1 {
+  color: #d4192f;
+  font-size: 60px;
+  font-weight: 600;
+  text-transform: uppercase;
+  isolation: isolate;
+}
+
+h2 {
+  color: white;
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight: 300;
+  background-color: #3C4A78;
+  text-align: center;
+}
+
+h3 {
+  color: #485f7d;
+  text-shadow: 3px 2px 1px rgba(44, 0, 0, 0.3);
+  text-transform: uppercase;
+  font-size: 40px;
+  margin: 10px 0;
+  border-bottom: 3px solid;
+  border-color: #d4192f;
+}
+
+h4 {
+  color: white;
+  font-size: 23px;
+  text-transform: uppercase;
+  font-weight: 200;
+  background-color: #3C4A78;
+  width: 100%;
+  text-align: center;
+}
+
+h5 {
+  color: #485f7d;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 20px;
+  margin: 15px 0;
+}
+
+h6 {
+
+}
+
+p {
+  color: #5b5d6e;
+  text-align: justify;
+  font-size: 21px;
+  margin: 10px 0;
+}
+
+header {
+  background-color: #46515A;
+  padding-left: 35px;
+  background-image: url(images/header.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  box-shadow: 2px 1px 1px rgba(161, 93, 24, 0.5);
+}
+
+footer a p {
+  color: #19191c;
+  font-weight: 400;
+  background-image: url(images/header.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  width: 100%;
+  line-height: 40px;
+  text-transform: uppercase;
+  font-size: 20px;
+  text-align: center;
+  padding: 0;
+  box-shadow: -2px -1px 1px rgba(161, 93, 24, 0.5);
+}
+
+@media only screen and (max-width:768px) {
+
+  main {
+  margin: 25px 35px 25px 35px;
+  }
+
+  /*
+  HEADER
+  */
+
+  header nav {
+    font-size: 22px;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+  }
+
+  header ul li a {
+    color: #1F1217;
+  }
+
+  header ul li a:hover {
+    color: #d4192f;
+    isolation: isolate;
+  }
+
+  /*
+INDEX HTML
+*/
+
+  h2 a {
+    color: white;
+  }
+
+  .ficbook-logo-mobile {
+    display: block;
+  }
+
+  .ficbook-logo-web {
+    display: none;
+  }
+
+  .img-venus {
+    display: none;
+  }
+
+  /*
+PLANET HTML
+*/
+  .list-planet ul li {
+    text-transform: uppercase;
+    padding: 5px;
+    margin: 10px 0;
+    box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.3);
+    color: rgba(0, 0, 0, 0.8);
+    border: 1px solid;
+    border-color: rgba(0, 0, 0, 0.2);
+    background-color: white;
+    list-style-type: none;
+    font-size: 16px;
+    text-align: left;
+  }
+
+  video {
+    width: 100%;
+  }
+
+  .video-wrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    height: 0px;
+  }
+
+  .video-wrapper iframe {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+  }
+
+  /*
+GEO HTML IPOD
+*/
+  .wrapperGeo {
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: space-around;
+    margin: 0 15px;
+  }
+
+  .containerGeo {
+    position: relative;
+    width: 284px;
+    height: 354px;
+    margin: 10px 5px;
+    background-color: white;
+    box-shadow: 2px 2px 3px 0 rgba(0, 0, 0, 0.3), 0 4px 10px 0 rgba(0, 0, 0, 0.5);
+  }
+
+  .textGeo {
+    color: #d4192f;
+    position: absolute;
+    top: 87%;
+    left: 50%;
+    font-size: 25px;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-transform: uppercase;
+  }
+
+  .textInfoGeoTop {
+    color: #d4192f;
+    font-size: 15px;
+    text-align: center;
+    background-color: white;
+    text-transform: uppercase;
+    position: absolute;
+    top: 0px;
+    width: 244px;
+    padding: 0 10px;
+    margin: 10px;
+  }
+
+  .textInfoGeoTop p{
+    font-size: 12px;
+    letter-spacing: 0.3px;
+  }
+
+  .textInfoGeo {
+    color: white;
+    font-size: 12px;
+    padding: 12px;
+    text-align: justify;
+    font-family: tt;
+    letter-spacing: 1px;
+    font-weight: 300;
+    position: absolute;
+    top: 35px;
+  }
+
+  .textInfoGeoBottom{
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: space-between;
+    background-color: #050d0c;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 0px;
+    width: 244px;
+    padding: 0 10px;
+    margin: 10px;
+  }
+
+  .textInfoGeoBottom p{
+    font-size: 9px;
+    letter-spacing: 0.3px;
+  }
+
+  .containerGeo img{
+    width: 284px;
+    height: 284px;
+  }
+
+  .containerGeo .infoGeo {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 284px;
+    height: 284px;
+    transition: .5s ease;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+
+  .containerGeo:hover .infoGeo {
+    opacity: 1;
+    width: 284px;
+    height: 284px;
+  }
+
+  /*
+CHARACTERS HTML
+*/
+  .container {
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: space-around;
+    align-items: flex-start;
+    align-content: flex-start;
+  }
+
+  .container div {
+    position: relative;
+    width: 280px;
+    background-color: white;
+    box-shadow: 2px 2px 3px 0 rgba(0, 0, 0, 0.3), 0 4px 10px 0 rgba(0, 0, 0, 0.5);
+    margin: 25px 5px;
+  }
+
+  .mob-name {
+    color: rgba(0, 0, 0, 0.7);
+    text-transform: uppercase;
+    font-size: 30px;
+    border: 3px solid;
+    border-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    text-align: center;
+    line-height: 40px;
+    margin: 5px;
+  }
+
+  .container div img {
+    width: 280px;
+    text-align: justify;
+    height: auto;
+  }
+
+  .container div a {
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: flex-start;
+    line-height: 26px;
+  }
+
+  .container div a ul {
+    color: #d4192f;
+    background-color: white;
+    display: block;
+    width: 100%;
+  }
+
+  .container div a ul li {
+    border-collapse: collapse;
+    text-transform: uppercase;
+    width: auto;
+    margin: 0;
+    border-bottom: 3px solid;
+    border-color: rgba(0, 0, 0, 0.6);
+    padding: 5px 5px 5px 5px;
+  }
+
+  .container div a ul li:first-child {
+    display: none;
+  }
+
+  .container div a ul li p {
+
+  }
+
+  .container div a ul li p:first-child {
+    float: left;
+    width: 135px;
+    background-color: #3C4A78;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    margin: 0;
+    margin-right: 5px;
+    font-weight: 300;
+  }
+
+  .container div a ul li p:last-child {
+    color: black;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    margin: 0;
+    text-align: left;
+  }
+
+
+  .item-1 {
+    order: 1;
+  }
+
+  .item-2 {
+    order: 2;
+  }
+
+  .item-3 {
+    order: 3;
+  }
+
+  /*
+ FOOTER HTML
+ */
+  footer {
+    background-color: #8F957C;
+    height: 40px;
+  }
+
+  footer a {
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: white;
+    color: #d4192f;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 38px;
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (min-width:769px) {
+
+  main {
+  margin: 25px 75px 25px 75px;
+  }
+
+  /*
+  HEADER IPAD
+  */
+
+  header nav ul{
+      font-size: 22px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      text-transform: uppercase;
+      padding-bottom: 5px;
+    }
+
+  header nav ul li {
+    padding-right: 25px;
+    padding-bottom: 10px;
+  }
+
+  header nav ul li a {
+    color: #1F1217;
+  }
+
+  header nav ul li a:hover {
+    color: #d4192f;
+  }
+
+  /*
+INDEX HTML IPAD
+*/
+  .img-venus {
+    float: right;
+    display: block;
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    border: 1px solid;
+    border-color: rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+    background-image: url(images/venus.png);
+    background-size: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 3px 5px 8px #7d808a;
+    margin: 10px 0 10px 25px;
+  }
+
+  h2 a {
+    color: white;
+  }
+
+  .ficbook-logo-mobile {
+    display: block;
+  }
+
+  .ficbook-logo-web {
+    display: none;
+  }
+
+  /*
+PLANET HTML IPAD
+*/
+
+.list-planet ul li {
+  text-transform: uppercase;
+  padding: 5px;
+  margin: 10px 0;
+  box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.3);
+  color: rgba(0, 0, 0, 0.8);
+  border: 1px solid;
+  border-color: rgba(0, 0, 0, 0.2);
+  background-color: white;
+  list-style-type: none;
+  font-size: 16px;
+  text-align: left;
+}
+
+  video {
+    width: 100%;
+  }
+
+  .video-wrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    height: 0px;
+  }
+
+  .video-wrapper iframe {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+  }
+
+  /*
+  GEO HTML IPOD
+  */
+
+
+  .wrapperGeo {
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: center;
+  }
+
+  .containerGeo {
+    position: relative;
+    width: 264px;
+    height: 344px;
+    margin: 15px 15px;
+    background-color: white;
+    box-shadow: 2px 2px 3px 0 rgba(0, 0, 0, 0.3), 0 4px 10px 0 rgba(0, 0, 0, 0.5);
+  }
+
+  .containerGeo img{
+    width: 264px;
+    height: 264px;
+  }
+
+  .textGeo {
+    color: #d4192f;
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    font-size: 21px;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-transform: uppercase;
+  }
+
+  .textInfoGeo {
+    color: white;
+    font-size: 10.5px;
+    padding: 15px;
+    text-align: justify;
+    font-family: tt;
+    letter-spacing: 1px;
+    font-weight: 200;
+    position: absolute;
+    top: 35px;
+  }
+
+  .textInfoGeoBottom {
+    color: #357854;
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: space-between;
+    background-color: #050d0c;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 0px;
+    width: 218px;
+    padding: 0 10px;
+    margin: 13px;
+    line-height: 10px;
+  }
+
+  .textInfoGeoBottom p{
+    font-size: 9px;
+    letter-spacing: 0.3px;
+  }
+
+  .textInfoGeoTop {
+    color: #d4192f;
+    text-align: center;
+    background-color: white;
+    text-transform: uppercase;
+    position: absolute;
+    top: 0px;
+    width: 218px;
+    padding: 0 10px;
+    margin: 13px;
+    line-height: 16px;
+  }
+
+  .textInfoGeoTop p{
+    font-size: 15px;
+    letter-spacing: 0.3px;
+
+  }
+
+.containerGeo .infoGeo {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 264px;
+    height: 264px;
+    transition: .5s ease;
+    background-color: rgba(0, 0, 0, 0.7);
+
+  }
+
+  .containerGeo:hover .infoGeo {
+    opacity: 1;
+    width: 264px;
+    height: 264px;
+  }
+
+
+  /*
+  CHARACTERS HTML IPAD
+  */
+  .container {
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: space-around;
+    align-items: flex-start;
+    align-content: flex-start;
+    padding: 15px;
+  }
+
+  .container div {
+    position: relative;
+    background-color: white;
+    margin: 20px 0;
+    box-shadow: 2px 2px 3px 0 rgba(0, 0, 0, 0.3), 0 4px 10px 0 rgba(0, 0, 0, 0.5);
+  }
+
+  .mob-name {
+    color: rgba(0, 0, 0, 0.8);
+    text-transform: uppercase;
+    font-size: 35px;
+    border: 2px solid;
+    border-color: rgba(0, 0, 0, 0.6);
+    text-align: center;
+    margin: 0px 5px 5px 5px;
+  }
+
+  .container div img {
+    width: 350px;
+    height: auto;
+  }
+
+  .container div a ul {
+    position: absolute;
+    bottom: 65px;
+    width: 350px;
+    height: 420px;
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    transition: 0.3s ease;
+  }
+
+  .container div a:hover ul {
+    opacity: 1;
+  }
+
+  .container div a ul li {
+    text-transform: uppercase;
+    border-bottom: 1px solid;
+    border-color: white;
+    letter-spacing: 1px;
+    font-weight: 400;
+    padding: 5px;
+  }
+
+  .container div a ul li:first-child {
+    color: white;
+    font-weight: 200;
+    text-align: center;
+    background-color: #d4192f;
+    text-transform: uppercase;
+    font-size: 18px;
+    border-bottom: none;
+    letter-spacing: 2px;
+    line-height: 26px;
+    margin: 5px 5px 0 5px;
+  }
+
+  .container div a ul li:last-child {
+    border-bottom: none;
+  }
+
+  .container div a ul li p:first-child {
+    float: left;
+    text-align: center;
+    width: 120px;
+    color: black;
+    background-color: white;
+    font-weight: 600;
+    font-size: 12px;
+    margin: 0;
+    margin-right: 5px;
+    letter-spacing: 0.8px;
+  }
+
+  .container div a ul li p:last-child {
+    color: white;
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 0.2px;
+    margin: 0;
+    text-align: left;
+  }
+
+  .item-1 {
+    order: 1;
+  }
+
+  .item-2 {
+    order: 2;
+  }
+
+  .item-3 {
+    order: 3;
+  }
+
+
+  /*
+FOOTER HTML IPAD
+*/
+  footer {
+    background-color: white;
+    height: 40px;
+  }
+
+  footer a {
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: white;
+    color: #d4192f;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 38px;
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (min-width:1024px) {
+
+  main {
+  margin: 25px 175px 25px 175px;
+  }
+
+  /*
+  HEADER IPAD
+  */
+
+  /*
+      INDEX WEB
+      */
+  .img-venus {
+    width: 400px;
+    height: 400px;
+    margin: 0 25px 20px 25px;
+  }
+
+  .ficbook-logo-web {
+    display: block;
+    background-color: #3C4A78;
+    color: #ffd08e;
+    height: 70px;
+    line-height: 70px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    font-weight: 200;
+    text-transform: uppercase;
+  }
+
+  .ficbook-logo-web ul {
+    height: 100%;
+    padding: 0 0 0 15px;
+  }
+
+  .ficbook-logo-web ul li {
+    display: inline-block;
+    float: left;
+  }
+
+  .ficbook-logo {
+    display: block;
+    height: 55px;
+    width: 55px;
+    background-image: url(images/ficbook.png);
+    background-size: cover;
+    margin: 7px 0 7px 7px;
+  }
+
+  .ficbook-logo:hover {
+    display: block;
+    height: 55px;
+    width: 55px;
+    background-image: url(images/ficbookred.png);
+    background-size: cover;
+    margin: 7px 0 7px 7px;
+  }
+
+  .ficbook-logo-mobile {
+    display: none;
+  }
+
+  /*
+PLANET WEB
+*/
+
+  /*
+  GEO WEB
+  */
+.containerGeo {
+    width: 394px;
+    height: 494px;
+    margin: 20px 15px;
+  }
+
+  .containerGeo img{
+    width: 394px;
+    height: 394px;
+  }
+
+  .textGeo {
+    top: 87%;
+    font-size: 30px;
+  }
+
+  .textInfoGeo {
+    font-size: 17px;
+    padding: 15px;
+    letter-spacing: 2px;
+    position: absolute;
+    top: 58px;
+  }
+
+  .textInfoGeoBottom {
+    width: 344px;
+    padding: 5px 10px;
+    margin: 10px 15px;
+  }
+
+    .textInfoGeoBottom p{
+      font-size: 13px;
+    }
+
+  .textInfoGeoTop {
+    position: absolute;
+    top: 0px;
+    width: 344px;
+    padding: 5px 10px;
+    margin: 10px 15px;
+  }
+
+  .textInfoGeoTop p{
+    font-size: 18px;
+  }
+
+  .containerGeo .infoGeo {
+    opacity: 0;
+    width: 394px;
+    height: 394px;
+  }
+
+  .containerGeo:hover .infoGeo {
+    opacity: 1;
+    width: 394px;
+    height: 394px;
+  }
+
+  /*
+  CHARACTERS WEB
+  */
+
+
+
+  /*
+FOOTER WEB
+*/
+  #a-big-help {
+    height: 280px;
+  }
+
+
+
+}
+
+/*
+DARK MODE
+*/
+
+.darkmode--activated header ul li a:hover {
+  mix-blend-mode: lighten;
+}
+
+.darkmode--activated main {
+  mix-blend-mode: lighten;
+}
+
+.darkmode--activated .list-planet ul li{
+  box-shadow: 2px 3px 2px rgba(255, 255, 255, 0.4);
+  border-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0);
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.darkmode--activated .img-venus {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+  .darkmode--activated h3 {
+    text-shadow: 3px 2px 1px rgba(255, 255, 255, 0.1);
+  }
