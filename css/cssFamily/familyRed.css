@@ -16,7 +16,7 @@ h3 {
 
 
 
-@media only screen and (min-width:0px) and (max-width: 464px){
+@media only screen and (min-width:0px) and (max-width: 464px) {
 
   p {
     font-size: 12px;
@@ -38,7 +38,7 @@ h3 {
 
   /*Top navigation*/
 
-  .familyTopNav{
+  .familyTopNav {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -46,7 +46,7 @@ h3 {
     margin-bottom: 10px;
   }
 
-  .familyTopNav li{
+  .familyTopNav li {
     padding: 3px 8px;
     margin: 3px;
     line-height: 16px;
@@ -55,14 +55,14 @@ h3 {
     opacity: 1;
   }
 
-  .familyTopNav a{
+  .familyTopNav a {
     color: white;
   }
 
   /*All the familyes styling*/
 
-  .familyTableAllWrapper{
-  margin: 25px 35px 25px 35px;
+  .familyTableAllWrapper {
+    margin: 25px 35px 25px 35px;
   }
 
   .familyTableAllP1 {
@@ -72,26 +72,25 @@ h3 {
     margin: 5px 0;
   }
 
-  .familyTableAllP2 p{
+  .familyTableAllP2 p {
     color: #5b5d6e;
     text-align: justify;
     font-size: 21px;
     margin: 10px 0;
   }
 
-  .familyTableAll li {
-  }
+  .familyTableAll li {}
 
-  .familyTableAll li p{
+  .familyTableAll li p {
     margin-right: 20px;
   }
 
-  .familyTableAll li p:first-child{
+  .familyTableAll li p:first-child {
     font-size: 18px;
     line-height: 22px;
   }
 
-  .familyTableAll li p:nth-child(2){
+  .familyTableAll li p:nth-child(2) {
     text-align: left;
     font-size: 11.5px;
     line-height: 16px;
@@ -99,7 +98,7 @@ h3 {
     letter-spacing: 0.3px;
   }
 
-  .familyTableAll li p:nth-child(3){
+  .familyTableAll li p:nth-child(3) {
     font-size: 10px;
     line-height: 16px;
     font-weight: 300;
@@ -108,10 +107,16 @@ h3 {
 
   /*Main familyes toggle*/
 
-  .fToggleDis{height: 405px;}
-  .fToggleDis2{height: 545px;}
+  .fToggleDis {
+    height: 405px;
+  }
 
-  .fToggleDis, .fToggleDis2{
+  .fToggleDis2 {
+    height: 545px;
+  }
+
+  .fToggleDis,
+  .fToggleDis2 {
     color: #f15144;
     text-align: justify;
     position: absolute;
@@ -128,7 +133,7 @@ h3 {
 
   /*Main familyes styling*/
 
-  .familyBoxMain{
+  .familyBoxMain {
     margin-bottom: 20px;
     text-transform: uppercase;
     box-shadow: 2px 2px 3px 0 rgba(0, 0, 0, 0.1), 0 4px 10px 0 rgba(0, 0, 0, 0.3);
@@ -140,34 +145,34 @@ h3 {
     font-weight: 400;
   }
 
-  .familyBoxMain ul div:nth-child(3){
+  .familyBoxMain ul div:nth-child(3) {
     padding-top: 10px;
     padding-bottom: 15px;
   }
 
-  .familyBoxMain ul div:nth-child(3) p:nth-child(3){
-    font-size:7px;
+  .familyBoxMain ul div:nth-child(3) p:nth-child(3) {
+    font-size: 7px;
     font-weight: 500;
     letter-spacing: 0.2px;
   }
 
-  .familyMainUpperBox img{
+  .familyMainUpperBox img {
     padding: 25px 10px 0 0px;
     height: 60px;
     float: right;
     cursor: pointer;
   }
 
-  .familyMainUpperBox p{
+  .familyMainUpperBox p {
     background-color: white;
-    color:#f15144;
+    color: #f15144;
     text-align: left;
     font-size: 9px;
     letter-spacing: 0.5px;
     font-weight: 500;
   }
 
-  .familyMainLowerBox{
+  .familyMainLowerBox {
     color: #c4292a;
     background-color: white;
     font-size: 30px;
@@ -210,35 +215,35 @@ h3 {
     font-weight: 400;
   }
 
-  .familyList1{
+  .familyList1 {
     background-color: #ff8167;
   }
 
-  .familyList2{
+  .familyList2 {
     background-color: #f15144;
   }
 
-  .familyList3{
+  .familyList3 {
     background-color: #c4292a;
   }
 
-  .familyList4{
+  .familyList4 {
     background-color: #92151a;
   }
 
-  .prim{
+  .prim {
     background-color: #f15144;
     margin: 0 15px 0 -15px;
   }
 
-  .prim2{
+  .prim2 {
     background-color: #92151a;
     margin: 0 15px 0 -15px;
   }
 
 }
 
-@media only screen and (min-width:465px) and (max-width: 768px){
+@media only screen and (min-width:465px) and (max-width: 768px) {
 
   p {
     font-size: 12px;
@@ -260,7 +265,7 @@ h3 {
 
   /*Top navigation*/
 
-  .familyTopNav{
+  .familyTopNav {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -268,7 +273,7 @@ h3 {
     margin-bottom: 10px;
   }
 
-  .familyTopNav li{
+  .familyTopNav li {
     padding: 3px 8px;
     margin: 3px;
     line-height: 16px;
@@ -277,14 +282,14 @@ h3 {
     opacity: 1;
   }
 
-  .familyTopNav a{
+  .familyTopNav a {
     color: white;
   }
 
   /*All the familyes styling*/
 
-  .familyTableAllWrapper{
-  margin: 25px 35px 25px 35px;
+  .familyTableAllWrapper {
+    margin: 25px 35px 25px 35px;
   }
 
   .familyTableAllP1 {
@@ -294,26 +299,25 @@ h3 {
     margin: 5px 0;
   }
 
-  .familyTableAllP2 p{
+  .familyTableAllP2 p {
     color: #5b5d6e;
     text-align: justify;
     font-size: 21px;
     margin: 10px 0;
   }
 
-  .familyTableAll li {
-  }
+  .familyTableAll li {}
 
-  .familyTableAll li p{
+  .familyTableAll li p {
     margin-right: 20px;
   }
 
-  .familyTableAll li p:first-child{
+  .familyTableAll li p:first-child {
     font-size: 18px;
     line-height: 22px;
   }
 
-  .familyTableAll li p:nth-child(2){
+  .familyTableAll li p:nth-child(2) {
     text-align: left;
     font-size: 11.5px;
     line-height: 16px;
@@ -321,7 +325,7 @@ h3 {
     letter-spacing: 0.3px;
   }
 
-  .familyTableAll li p:nth-child(3){
+  .familyTableAll li p:nth-child(3) {
     font-size: 10px;
     line-height: 16px;
     font-weight: 300;
@@ -330,10 +334,16 @@ h3 {
 
   /*Main familyes toggle*/
 
-  .fToggleDis {height: 385px;}
-  .fToggleDis2{height: 565px;}
+  .fToggleDis {
+    height: 385px;
+  }
 
-  .fToggleDis, .fToggleDis2{
+  .fToggleDis2 {
+    height: 565px;
+  }
+
+  .fToggleDis,
+  .fToggleDis2 {
     color: #f15144;
     text-align: justify;
     position: absolute;
@@ -348,40 +358,40 @@ h3 {
 
   /*Main familyes styling*/
 
-  .familyBoxMain{
+  .familyBoxMain {
     margin-bottom: 20px;
     text-transform: uppercase;
     box-shadow: 2px 2px 3px 0 rgba(0, 0, 0, 0.1), 0 4px 10px 0 rgba(0, 0, 0, 0.3);
   }
 
-  .familyBoxMain ul div{
+  .familyBoxMain ul div {
     padding-left: 10px;
     background-color: white;
     font-weight: 400;
   }
 
-  .familyBoxMain ul div:nth-child(3){
+  .familyBoxMain ul div:nth-child(3) {
     padding-top: 10px;
     padding-bottom: 15px;
   }
 
-  .familyMainUpperBox img{
+  .familyMainUpperBox img {
     padding: 25px 10px 0 0px;
     height: 60px;
     float: right;
     cursor: pointer;
   }
 
-  .familyMainUpperBox p{
+  .familyMainUpperBox p {
     background-color: white;
-    color:#f15144;
+    color: #f15144;
     text-align: left;
     font-size: 9px;
     letter-spacing: 0.5px;
     font-weight: 500;
   }
 
-  .familyMainLowerBox{
+  .familyMainLowerBox {
     color: #c4292a;
     background-color: white;
     font-size: 30px;
@@ -424,28 +434,28 @@ h3 {
     font-weight: 300;
   }
 
-  .familyList1{
+  .familyList1 {
     background-color: #ff8167;
   }
 
-  .familyList2{
+  .familyList2 {
     background-color: #f15144;
   }
 
-  .familyList3{
+  .familyList3 {
     background-color: #c4292a;
   }
 
-  .familyList4{
+  .familyList4 {
     background-color: #92151a;
   }
 
-  .prim{
+  .prim {
     background-color: #f15144;
     margin: 0 15px 0 -15px;
   }
 
-  .prim2{
+  .prim2 {
     background-color: #92151a;
     margin: 0 15px 0 -15px;
   }
@@ -454,195 +464,201 @@ h3 {
 
 @media only screen and (min-width:769px) {
 
-/*Top navigation*/
+  /*Top navigation*/
 
-.familyTopNav{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  text-transform: uppercase;
-  margin-bottom: 10px;
-}
+  .familyTopNav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
 
-.familyTopNav li{
-  padding: 3px 10px;
-  background-color: #c4292a;
-  opacity: 1;
-}
+  .familyTopNav li {
+    padding: 3px 10px;
+    background-color: #c4292a;
+    opacity: 1;
+  }
 
-.familyTopNav a{
-  color: white;
-}
+  .familyTopNav a {
+    color: white;
+  }
 
-/*All the familyes styling*/
+  /*All the familyes styling*/
 
-.familyTableAllWrapper{
-margin: 25px 75px 25px 75px;
-}
+  .familyTableAllWrapper {
+    margin: 25px 75px 25px 75px;
+  }
 
-.familyTableAllP1 {
-  color: #5b5d6e;
-  text-align: justify;
-  font-size: 16px;
-  margin: 5px 0;
-}
+  .familyTableAllP1 {
+    color: #5b5d6e;
+    text-align: justify;
+    font-size: 16px;
+    margin: 5px 0;
+  }
 
-.familyTableAllP2 p{
-  color: #5b5d6e;
-  text-align: justify;
-  font-size: 21px;
-  margin: 10px 0;
-}
+  .familyTableAllP2 p {
+    color: #5b5d6e;
+    text-align: justify;
+    font-size: 21px;
+    margin: 10px 0;
+  }
 
-.familyTableAll li {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-}
+  .familyTableAll li {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
 
-.familyTableAll li p{
-  margin-right: 20px;
-}
+  .familyTableAll li p {
+    margin-right: 20px;
+  }
 
-.familyTableAll li p:first-child{
-  width: 100px;
-  font-size: 15px;
-  line-height: 20px;
-}
+  .familyTableAll li p:first-child {
+    width: 100px;
+    font-size: 15px;
+    line-height: 20px;
+  }
 
-.familyTableAll li p:nth-child(2){
-  width: 320px;
-  font-size: 12.5px;
-  line-height: 20px;
-  font-weight: 300;
-}
+  .familyTableAll li p:nth-child(2) {
+    width: 320px;
+    font-size: 12.5px;
+    line-height: 20px;
+    font-weight: 300;
+  }
 
-.familyTableAll li p:nth-child(3){
-  font-size: 12.5px;
-  line-height: 20px;
-  font-weight: 300;
-}
+  .familyTableAll li p:nth-child(3) {
+    font-size: 12.5px;
+    line-height: 20px;
+    font-weight: 300;
+  }
 
-/*Main familyes toggle*/
+  /*Main familyes toggle*/
 
-.fToggleDis{height: 376px;}
-.fToggleDis2{height: 565px;}
+  .fToggleDis {
+    height: 376px;
+  }
 
-.fToggleDis, .fToggleDis2{
-  color: #f15144;
-  text-align: justify;
-  position: absolute;
-  right: 75px;
-  left: 180px;
-  margin-top: 185px;
-  opacity: 0;
-  letter-spacing: 0.3px;
-  font-size: 12px;
-}
+  .fToggleDis2 {
+    height: 565px;
+  }
 
-/*Main familyes styling*/
+  .fToggleDis,
+  .fToggleDis2 {
+    color: #f15144;
+    text-align: justify;
+    position: absolute;
+    right: 75px;
+    left: 180px;
+    margin-top: 185px;
+    opacity: 0;
+    letter-spacing: 0.3px;
+    font-size: 12px;
+  }
 
-.familyBoxMain{
-  margin-bottom: 20px;
-  text-transform: uppercase;
-  box-shadow: 2px 2px 3px 0 rgba(0, 0, 0, 0.1), 0 4px 10px 0 rgba(0, 0, 0, 0.3);
-}
+  /*Main familyes styling*/
 
-.familyBoxMain ul div{
-  padding: 0 12px 27px 12px;
-  background-color: white;
-  font-weight: 400;
-}
+  .familyBoxMain {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    box-shadow: 2px 2px 3px 0 rgba(0, 0, 0, 0.1), 0 4px 10px 0 rgba(0, 0, 0, 0.3);
+  }
 
-.familyMainUpperBox img{
-  padding: 40px 30px 0 0;
-  height: 100px;
-  float: right;
-  cursor: pointer;
-}
+  .familyBoxMain ul div {
+    padding: 0 12px 27px 12px;
+    background-color: white;
+    font-weight: 400;
+  }
 
-.familyMainUpperBox p{
-  background-color: white;
-  color:#f15144;
-  font-size: 11.5px;
-  letter-spacing: 0.5px;
-}
+  .familyMainUpperBox img {
+    padding: 40px 30px 0 0;
+    height: 100px;
+    float: right;
+    cursor: pointer;
+  }
 
-.familyMainLowerBox{
-  color: #c4292a;
-  background-color: white;
-  padding: 10px 0;
-  font-size: 50px;
-  border-bottom: 3px solid;
-  border-color: white;
-}
+  .familyMainUpperBox p {
+    background-color: white;
+    color: #f15144;
+    font-size: 11.5px;
+    letter-spacing: 0.5px;
+  }
 
-.familyTableMain li {
-  border-bottom: 3px solid;
-  color: white;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-}
+  .familyMainLowerBox {
+    color: #c4292a;
+    background-color: white;
+    padding: 10px 0;
+    font-size: 50px;
+    border-bottom: 3px solid;
+    border-color: white;
+  }
 
-.familyTableMain li p:first-child {
-  border-right: 3px solid;
-  width: 100px;
-  font-weight: 400;
-}
+  .familyTableMain li {
+    border-bottom: 3px solid;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
 
-.familyTableMain li p:nth-child(2) {
-  margin-left: 5px;
-  border-right: 3px solid;
-  width: 27px;
-  font-weight: 200;
-}
+  .familyTableMain li p:first-child {
+    border-right: 3px solid;
+    width: 100px;
+    font-weight: 400;
+  }
 
-.familyTableMain li p:nth-child(3) {
-  margin-left: 8px;
-  font-weight: 300;
-}
+  .familyTableMain li p:nth-child(2) {
+    margin-left: 5px;
+    border-right: 3px solid;
+    width: 27px;
+    font-weight: 200;
+  }
 
-.familyList1{
-  background-color: #ff8167;
-  padding: 0 5px;
-}
+  .familyTableMain li p:nth-child(3) {
+    margin-left: 8px;
+    font-weight: 300;
+  }
 
-.familyList2{
-  background-color: #f15144;
-  padding: 0 5px;
-}
+  .familyList1 {
+    background-color: #ff8167;
+    padding: 0 5px;
+  }
 
-.familyList3{
-  background-color: #c4292a;
-  padding: 0 5px;
-}
+  .familyList2 {
+    background-color: #f15144;
+    padding: 0 5px;
+  }
 
-.familyList4{
-  background-color: #92151a;
-  padding: 0 5px;
-}
+  .familyList3 {
+    background-color: #c4292a;
+    padding: 0 5px;
+  }
 
-.prim{
-  background-color: #f15144;
-  margin-left: -25px;
-}
+  .familyList4 {
+    background-color: #92151a;
+    padding: 0 5px;
+  }
 
-.prim {
-  padding: 0 20px 0 5px;
-}
+  .prim {
+    background-color: #f15144;
+    margin-left: -25px;
+  }
 
-.prim2{
-  background-color: #92151a;
-  margin-left: -25px;
-  padding: 0 20px 0 5px;
-}
+  .prim {
+    padding: 0 20px 0 5px;
+  }
+
+  .prim2 {
+    background-color: #92151a;
+    margin-left: -25px;
+    padding: 0 20px 0 5px;
+  }
 }
 
 @media only screen and (min-width:1024px) {
 
-  .familyTableAllWrapper{
-  margin: 25px 175px 25px 175px;
+  .familyTableAllWrapper {
+    margin: 25px 175px 25px 175px;
   }
 
   /*All the familyes styling*/
@@ -653,19 +669,19 @@ margin: 25px 75px 25px 75px;
     justify-content: flex-start;
   }
 
-  .familyTableAll li p:first-child{
+  .familyTableAll li p:first-child {
     width: 150px;
     font-size: 20px;
     line-height: 30px;
   }
 
-  .familyTableAll li p:nth-child(2){
+  .familyTableAll li p:nth-child(2) {
     width: 500px;
     font-size: 16px;
     line-height: 30px;
   }
 
-  .familyTableAll li p:nth-child(3){
+  .familyTableAll li p:nth-child(3) {
     width: 150px;
     font-size: 16px;
     line-height: 30px;
@@ -673,10 +689,16 @@ margin: 25px 75px 25px 75px;
 
   /*Main familyes toggle*/
 
-  .fToggleDis{height: 376px;}
-  .fToggleDis2{height: 565px;}
+  .fToggleDis {
+    height: 376px;
+  }
 
-  .fToggleDis, .fToggleDis2{
+  .fToggleDis2 {
+    height: 565px;
+  }
+
+  .fToggleDis,
+  .fToggleDis2 {
     color: #8791AF;
     text-align: justify;
     position: absolute;
